@@ -1,0 +1,33 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./It\'s_All_Right.png");
+    background-size: 100% 100%;
+    min-width: 300px;
+    min-height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+button {
+    max-width: 300px;
+    cursor:pointer;
+}
+
+.welcome {
+    color: yellow;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+.welcome:hover {
+    color: red;
+    background-color: yellow;
+}
+@media (min-width:768px){
+    .Container{
+    width: 700px;
+    height: 500px;
+    }
+}
